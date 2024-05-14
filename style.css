@@ -7,6 +7,12 @@
     font-family: "Poppins", sans-serif;
  }
 
+ .top{
+    background-color: #0734ad;
+    color: rgba(202, 202, 73, 0.959);
+    text-align: center;
+ }
+
  .image{
     position: relative;
     height: 150px;
@@ -27,7 +33,7 @@
 
  .body{
     height: 100vh;
-    border: 3px solid black;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,6 +81,14 @@
     font-size: 15px;
     font-weight: 400;
     
+ }
+ .but{
+    background-color: rgb(255, 255, 9);
+    
+ }
+
+ .but button{
+    color: #0734ad;;
  }
  .profile-card .media-buttons{
     display: flex;
